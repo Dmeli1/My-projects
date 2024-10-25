@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f3f6fa;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #0056b3;  /* A dark blue for headings */
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1rem;
+  color: #333;  /* Slightly darker text for readability */
+  line-height: 1.6;
+}
+
+/* Navbar Styles */
+.navbar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  font-size: 1rem;
+  color: #f8f9fa !important;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #cce5ff !important; /* Light blue on hover */
+}
+
+/* Button Styles */
+.btn-outline-primary {
+  color: #0056b3;
+  border-color: #0056b3;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/* Image Styling */
+.img-fluid {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom Container Styling */
+.container {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+/* Footer and Social Icons */
+.social-icons i {
+  font-size: 2rem;
+  color: #0056b3;
+  margin: 10px;
+  transition: transform 0.2s, color 0.3s;
+}
+
+.social-icons i:hover {
+  transform: scale(1.1);
+  color: #003d80;
+}
+
+/* Form Styling */
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #0056b3;
+  box-shadow: 0 0 5px rgba(0, 86, 179, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+  
+  .btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .social-icons i {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
